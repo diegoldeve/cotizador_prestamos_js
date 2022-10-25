@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(84, 131, 238), rgb(6, 61, 156));
+}
+.title{
+    color:white;
+    margin:10px;
+}
+h2{
+    margin:10px;
+}
+.resultado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    margin-top:20px;
+    border-radius:25px;
+    height: 50vh;
+    visibility:hidden;
+}
+.resultado h2, p{
+    margin-bottom: 10px;
+}
+select{
+    font-family: 'Chakra Petch', sans-serif;
+    /* margin: 20px; */
+}
+button{
+    font-family: 'Chakra Petch', sans-serif;
+}
+input{
+    margin:10px;
+}
+input[type=number]{
+    font-family: 'Chakra Petch', sans-serif;
+    height: 5vh;
+    border-radius: 10px;
+    border:none;
+    padding: 10px;
+}
